@@ -1,0 +1,53 @@
+#main_view_container {
+  background-color: whitesmoke;
+  width: 500px;
+  height: 400px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#circle_container {
+  display: flex;
+  margin: 10px;
+  flex-direction: row;
+}
+
+#button_container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  background-color: #ff6961;
+  border-radius: 16px;
+  height: 75px;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+
+}
+svg {
+  background-color: whitesmoke;
+  margin: 3px;
+  border-radius: 100px;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 5px;
+  outline-color: black;
+  outline-width: 2px;
+  background-color: #d3d3d3;
+}
+
+.completed {
+  background-color: rgb(89, 179, 89);
+}
+
+.disabled {
+  background-color: grey;
+}
+#title {
+  font-size: 48px;
+}
